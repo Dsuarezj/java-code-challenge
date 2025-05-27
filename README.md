@@ -54,7 +54,7 @@ Your task is to implement a function that sorts this list of messages by time, e
 Given the following input:
 
 ```java
-List<String> mensajes = List.of(
+List<String> message = List.of(
     "10:15-User logged in",
     "08:30-System startup",
     "09:45-Database connected"
@@ -64,7 +64,7 @@ List<String> mensajes = List.of(
 When executing:
 
 ```java
-yourFunction(mensajes, true);
+yourFunction(message, true);
 ```
 
 The output should look something like this:
